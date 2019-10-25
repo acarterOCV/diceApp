@@ -1,0 +1,6 @@
+module Pods_diceApp {
+  umbrella header "Pods-diceApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

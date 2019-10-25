@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  diceApp
 //
-//  Created by Ashley Carter on 10/16/19.
+//  Created by Ashley Carter on 10/25/19.
 //  Copyright © 2019 OCV, LLC. All rights reserved.
 //
 

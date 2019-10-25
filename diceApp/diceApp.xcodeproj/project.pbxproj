@@ -7,62 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C047FCC12357C0CB00AAF9E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047FCC02357C0CB00AAF9E4 /* AppDelegate.swift */; };
-		C047FCC32357C0CB00AAF9E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047FCC22357C0CB00AAF9E4 /* SceneDelegate.swift */; };
-		C047FCC52357C0CB00AAF9E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047FCC42357C0CB00AAF9E4 /* ViewController.swift */; };
-		C047FCC82357C0CB00AAF9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C047FCC62357C0CB00AAF9E4 /* Main.storyboard */; };
-		C047FCCA2357C0CC00AAF9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C047FCC92357C0CC00AAF9E4 /* Assets.xcassets */; };
-		C047FCCD2357C0CC00AAF9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C047FCCB2357C0CC00AAF9E4 /* LaunchScreen.storyboard */; };
+		1494AEAFD0482693910323D5 /* libPods-diceApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD5E0F99F7958F7CCC77507 /* libPods-diceApp.a */; };
+		C02B1AE423639CA8004AF61E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B1AE323639CA8004AF61E /* AppDelegate.swift */; };
+		C02B1AE623639CA8004AF61E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B1AE523639CA8004AF61E /* SceneDelegate.swift */; };
+		C02B1AE823639CA8004AF61E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02B1AE723639CA8004AF61E /* ViewController.swift */; };
+		C02B1AEB23639CA8004AF61E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B1AE923639CA8004AF61E /* Main.storyboard */; };
+		C02B1AED23639CAD004AF61E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02B1AEC23639CAD004AF61E /* Assets.xcassets */; };
+		C02B1AF023639CAD004AF61E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02B1AEE23639CAD004AF61E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C047FCBD2357C0CB00AAF9E4 /* diceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C047FCC02357C0CB00AAF9E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C047FCC22357C0CB00AAF9E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C047FCC42357C0CB00AAF9E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C047FCC72357C0CB00AAF9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C047FCC92357C0CC00AAF9E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C047FCCC2357C0CC00AAF9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C047FCCE2357C0CC00AAF9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BD5E0F99F7958F7CCC77507 /* libPods-diceApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-diceApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		966A7AB4E3CF078145A0DBC4 /* Pods-diceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diceApp.release.xcconfig"; path = "Target Support Files/Pods-diceApp/Pods-diceApp.release.xcconfig"; sourceTree = "<group>"; };
+		AFBFE09B7B8DE33C288DA79D /* Pods-diceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-diceApp.debug.xcconfig"; path = "Target Support Files/Pods-diceApp/Pods-diceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C02B1AE023639CA8004AF61E /* diceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B1AE323639CA8004AF61E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C02B1AE523639CA8004AF61E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C02B1AE723639CA8004AF61E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C02B1AEA23639CA8004AF61E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C02B1AEC23639CAD004AF61E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C02B1AEF23639CAD004AF61E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C02B1AF123639CAD004AF61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C047FCBA2357C0CB00AAF9E4 /* Frameworks */ = {
+		C02B1ADD23639CA8004AF61E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1494AEAFD0482693910323D5 /* libPods-diceApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C047FCB42357C0CB00AAF9E4 = {
+		79E714BB3F15041FA607027D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C047FCBF2357C0CB00AAF9E4 /* diceApp */,
-				C047FCBE2357C0CB00AAF9E4 /* Products */,
+				AFBFE09B7B8DE33C288DA79D /* Pods-diceApp.debug.xcconfig */,
+				966A7AB4E3CF078145A0DBC4 /* Pods-diceApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F75D1BB050807F02D41811D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BD5E0F99F7958F7CCC77507 /* libPods-diceApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C02B1AD723639CA8004AF61E = {
+			isa = PBXGroup;
+			children = (
+				C02B1AE223639CA8004AF61E /* diceApp */,
+				C02B1AE123639CA8004AF61E /* Products */,
+				79E714BB3F15041FA607027D /* Pods */,
+				7F75D1BB050807F02D41811D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C047FCBE2357C0CB00AAF9E4 /* Products */ = {
+		C02B1AE123639CA8004AF61E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C047FCBD2357C0CB00AAF9E4 /* diceApp.app */,
+				C02B1AE023639CA8004AF61E /* diceApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C047FCBF2357C0CB00AAF9E4 /* diceApp */ = {
+		C02B1AE223639CA8004AF61E /* diceApp */ = {
 			isa = PBXGroup;
 			children = (
-				C047FCC02357C0CB00AAF9E4 /* AppDelegate.swift */,
-				C047FCC22357C0CB00AAF9E4 /* SceneDelegate.swift */,
-				C047FCC42357C0CB00AAF9E4 /* ViewController.swift */,
-				C047FCC62357C0CB00AAF9E4 /* Main.storyboard */,
-				C047FCC92357C0CC00AAF9E4 /* Assets.xcassets */,
-				C047FCCB2357C0CC00AAF9E4 /* LaunchScreen.storyboard */,
-				C047FCCE2357C0CC00AAF9E4 /* Info.plist */,
+				C02B1AE323639CA8004AF61E /* AppDelegate.swift */,
+				C02B1AE523639CA8004AF61E /* SceneDelegate.swift */,
+				C02B1AE723639CA8004AF61E /* ViewController.swift */,
+				C02B1AE923639CA8004AF61E /* Main.storyboard */,
+				C02B1AEC23639CAD004AF61E /* Assets.xcassets */,
+				C02B1AEE23639CAD004AF61E /* LaunchScreen.storyboard */,
+				C02B1AF123639CAD004AF61E /* Info.plist */,
 			);
 			path = diceApp;
 			sourceTree = "<group>";
@@ -70,13 +95,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C047FCBC2357C0CB00AAF9E4 /* diceApp */ = {
+		C02B1ADF23639CA8004AF61E /* diceApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C047FCD12357C0CC00AAF9E4 /* Build configuration list for PBXNativeTarget "diceApp" */;
+			buildConfigurationList = C02B1AF423639CAD004AF61E /* Build configuration list for PBXNativeTarget "diceApp" */;
 			buildPhases = (
-				C047FCB92357C0CB00AAF9E4 /* Sources */,
-				C047FCBA2357C0CB00AAF9E4 /* Frameworks */,
-				C047FCBB2357C0CB00AAF9E4 /* Resources */,
+				B6AC570BCFC7899AAD559835 /* [CP] Check Pods Manifest.lock */,
+				C02B1ADC23639CA8004AF61E /* Sources */,
+				C02B1ADD23639CA8004AF61E /* Frameworks */,
+				C02B1ADE23639CA8004AF61E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +110,25 @@
 			);
 			name = diceApp;
 			productName = diceApp;
-			productReference = C047FCBD2357C0CB00AAF9E4 /* diceApp.app */;
+			productReference = C02B1AE023639CA8004AF61E /* diceApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C047FCB52357C0CB00AAF9E4 /* Project object */ = {
+		C02B1AD823639CA8004AF61E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "OCV, LLC";
 				TargetAttributes = {
-					C047FCBC2357C0CB00AAF9E4 = {
+					C02B1ADF23639CA8004AF61E = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
-			buildConfigurationList = C047FCB82357C0CB00AAF9E4 /* Build configuration list for PBXProject "diceApp" */;
+			buildConfigurationList = C02B1ADB23639CA8004AF61E /* Build configuration list for PBXProject "diceApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +136,80 @@
 				en,
 				Base,
 			);
-			mainGroup = C047FCB42357C0CB00AAF9E4;
-			productRefGroup = C047FCBE2357C0CB00AAF9E4 /* Products */;
+			mainGroup = C02B1AD723639CA8004AF61E;
+			productRefGroup = C02B1AE123639CA8004AF61E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C047FCBC2357C0CB00AAF9E4 /* diceApp */,
+				C02B1ADF23639CA8004AF61E /* diceApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C047FCBB2357C0CB00AAF9E4 /* Resources */ = {
+		C02B1ADE23639CA8004AF61E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C047FCCD2357C0CC00AAF9E4 /* LaunchScreen.storyboard in Resources */,
-				C047FCCA2357C0CC00AAF9E4 /* Assets.xcassets in Resources */,
-				C047FCC82357C0CB00AAF9E4 /* Main.storyboard in Resources */,
+				C02B1AF023639CAD004AF61E /* LaunchScreen.storyboard in Resources */,
+				C02B1AED23639CAD004AF61E /* Assets.xcassets in Resources */,
+				C02B1AEB23639CA8004AF61E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B6AC570BCFC7899AAD559835 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-diceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		C047FCB92357C0CB00AAF9E4 /* Sources */ = {
+		C02B1ADC23639CA8004AF61E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C047FCC52357C0CB00AAF9E4 /* ViewController.swift in Sources */,
-				C047FCC12357C0CB00AAF9E4 /* AppDelegate.swift in Sources */,
-				C047FCC32357C0CB00AAF9E4 /* SceneDelegate.swift in Sources */,
+				C02B1AE823639CA8004AF61E /* ViewController.swift in Sources */,
+				C02B1AE423639CA8004AF61E /* AppDelegate.swift in Sources */,
+				C02B1AE623639CA8004AF61E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C047FCC62357C0CB00AAF9E4 /* Main.storyboard */ = {
+		C02B1AE923639CA8004AF61E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C047FCC72357C0CB00AAF9E4 /* Base */,
+				C02B1AEA23639CA8004AF61E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C047FCCB2357C0CC00AAF9E4 /* LaunchScreen.storyboard */ = {
+		C02B1AEE23639CAD004AF61E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C047FCCC2357C0CC00AAF9E4 /* Base */,
+				C02B1AEF23639CAD004AF61E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +217,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C047FCCF2357C0CC00AAF9E4 /* Debug */ = {
+		C02B1AF223639CAD004AF61E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +277,7 @@
 			};
 			name = Debug;
 		};
-		C047FCD02357C0CC00AAF9E4 /* Release */ = {
+		C02B1AF323639CAD004AF61E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,8 +331,9 @@
 			};
 			name = Release;
 		};
-		C047FCD22357C0CC00AAF9E4 /* Debug */ = {
+		C02B1AF523639CAD004AF61E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFBFE09B7B8DE33C288DA79D /* Pods-diceApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,8 +350,9 @@
 			};
 			name = Debug;
 		};
-		C047FCD32357C0CC00AAF9E4 /* Release */ = {
+		C02B1AF623639CAD004AF61E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966A7AB4E3CF078145A0DBC4 /* Pods-diceApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -319,25 +372,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C047FCB82357C0CB00AAF9E4 /* Build configuration list for PBXProject "diceApp" */ = {
+		C02B1ADB23639CA8004AF61E /* Build configuration list for PBXProject "diceApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C047FCCF2357C0CC00AAF9E4 /* Debug */,
-				C047FCD02357C0CC00AAF9E4 /* Release */,
+				C02B1AF223639CAD004AF61E /* Debug */,
+				C02B1AF323639CAD004AF61E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C047FCD12357C0CC00AAF9E4 /* Build configuration list for PBXNativeTarget "diceApp" */ = {
+		C02B1AF423639CAD004AF61E /* Build configuration list for PBXNativeTarget "diceApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C047FCD22357C0CC00AAF9E4 /* Debug */,
-				C047FCD32357C0CC00AAF9E4 /* Release */,
+				C02B1AF523639CAD004AF61E /* Debug */,
+				C02B1AF623639CAD004AF61E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C047FCB52357C0CB00AAF9E4 /* Project object */;
+	rootObject = C02B1AD823639CA8004AF61E /* Project object */;
 }
