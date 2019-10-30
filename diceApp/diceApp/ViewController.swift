@@ -22,6 +22,10 @@ class ViewController: UIViewController {
     let diceArray = ["dice1", "dice2", "dice3", "dice4", "dice5", "dice6"]
     
     @IBAction func rollButtonPressed(_ sender: Any) {
+        randomRoll()
+    }
+    
+    func randomRoll() {
         randomDieIndex1 = Int.random(in: 0 ... 5)
         randomDieIndex2 = Int.random(in: 0 ... 5)
         
@@ -33,12 +37,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupConstraints()
+        randomRoll()
+        rollButton.titleLabel?.adjustsFontSizeToFitWidth = true
+        rollButton.titleLabel?.text = "Roll"
         
     }
     
     func setupConstraints() {
         rollButton.tintColor = UIColor.black
-        rollButton.titleLabel?.text = "Roll"
         rollButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
         
         logo.snp.makeConstraints { (make) in
@@ -65,6 +71,9 @@ class ViewController: UIViewController {
         }
         
     }
-
+    
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        randomRoll()
+    }
+    
 }
-
